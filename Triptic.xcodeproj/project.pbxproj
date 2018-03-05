@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C22047FBB80045C06A /* AppDelegate.swift */; };
+		F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C42047FBB80045C06A /* ViewController.swift */; };
+		F61BC9C82047FBB80045C06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61BC9C62047FBB80045C06A /* Main.storyboard */; };
+		F61BC9CA2047FBB80045C06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61BC9C92047FBB80045C06A /* Assets.xcassets */; };
+		F61BC9CD2047FBB80045C06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61BC9CB2047FBB80045C06A /* LaunchScreen.storyboard */; };
+		F61BC9D82047FBB80045C06A /* TripticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9D72047FBB80045C06A /* TripticTests.swift */; };
+		F61BC9E32047FBB80045C06A /* TripticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9E22047FBB80045C06A /* TripticUITests.swift */; };
+		F61BC9F32048340D0045C06A /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9F22048340D0045C06A /* CustomImagePicker.swift */; };
+		F6447F452049C9A1006A2549 /* Neoteric.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F61BCA222049BC220045C06A /* Neoteric.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F61BC9D42047FBB80045C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61BC9B72047FBB80045C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61BC9BE2047FBB80045C06A;
+			remoteInfo = Triptic;
+		};
+		F61BC9DF2047FBB80045C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61BC9B72047FBB80045C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61BC9BE2047FBB80045C06A;
+			remoteInfo = Triptic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F61BC9BF2047FBB80045C06A /* Triptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61BC9C22047FBB80045C06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F61BC9C42047FBB80045C06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F61BC9C72047FBB80045C06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F61BC9C92047FBB80045C06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F61BC9CC2047FBB80045C06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F61BC9CE2047FBB80045C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61BC9D32047FBB80045C06A /* TripticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61BC9D72047FBB80045C06A /* TripticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripticTests.swift; sourceTree = "<group>"; };
+		F61BC9D92047FBB80045C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61BC9DE2047FBB80045C06A /* TripticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61BC9E22047FBB80045C06A /* TripticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripticUITests.swift; sourceTree = "<group>"; };
+		F61BC9E42047FBB80045C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61BC9F22048340D0045C06A /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
+		F61BCA222049BC220045C06A /* Neoteric.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neoteric.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61BC9BC2047FBB80045C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9D02047FBB80045C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9DB2047FBB80045C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61BC9B62047FBB80045C06A = {
+			isa = PBXGroup;
+			children = (
+				F61BC9C12047FBB80045C06A /* Triptic */,
+				F61BC9D62047FBB80045C06A /* TripticTests */,
+				F61BC9E12047FBB80045C06A /* TripticUITests */,
+				F61BC9C02047FBB80045C06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F61BC9C02047FBB80045C06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61BC9BF2047FBB80045C06A /* Triptic.app */,
+				F61BC9D32047FBB80045C06A /* TripticTests.xctest */,
+				F61BC9DE2047FBB80045C06A /* TripticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61BC9C12047FBB80045C06A /* Triptic */ = {
+			isa = PBXGroup;
+			children = (
+				F6447F442049C93F006A2549 /* fonts */,
+				F61BC9C22047FBB80045C06A /* AppDelegate.swift */,
+				F61BC9C42047FBB80045C06A /* ViewController.swift */,
+				F61BC9C62047FBB80045C06A /* Main.storyboard */,
+				F61BC9C92047FBB80045C06A /* Assets.xcassets */,
+				F61BC9CB2047FBB80045C06A /* LaunchScreen.storyboard */,
+				F61BC9CE2047FBB80045C06A /* Info.plist */,
+				F61BC9F22048340D0045C06A /* CustomImagePicker.swift */,
+			);
+			path = Triptic;
+			sourceTree = "<group>";
+		};
+		F61BC9D62047FBB80045C06A /* TripticTests */ = {
+			isa = PBXGroup;
+			children = (
+				F61BC9D72047FBB80045C06A /* TripticTests.swift */,
+				F61BC9D92047FBB80045C06A /* Info.plist */,
+			);
+			path = TripticTests;
+			sourceTree = "<group>";
+		};
+		F61BC9E12047FBB80045C06A /* TripticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F61BC9E22047FBB80045C06A /* TripticUITests.swift */,
+				F61BC9E42047FBB80045C06A /* Info.plist */,
+			);
+			path = TripticUITests;
+			sourceTree = "<group>";
+		};
+		F6447F442049C93F006A2549 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F61BCA222049BC220045C06A /* Neoteric.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61BC9BE2047FBB80045C06A /* Triptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61BC9E72047FBB80045C06A /* Build configuration list for PBXNativeTarget "Triptic" */;
+			buildPhases = (
+				F61BC9BB2047FBB80045C06A /* Sources */,
+				F61BC9BC2047FBB80045C06A /* Frameworks */,
+				F61BC9BD2047FBB80045C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triptic;
+			productName = Triptic;
+			productReference = F61BC9BF2047FBB80045C06A /* Triptic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F61BC9D22047FBB80045C06A /* TripticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61BC9EA2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticTests" */;
+			buildPhases = (
+				F61BC9CF2047FBB80045C06A /* Sources */,
+				F61BC9D02047FBB80045C06A /* Frameworks */,
+				F61BC9D12047FBB80045C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61BC9D52047FBB80045C06A /* PBXTargetDependency */,
+			);
+			name = TripticTests;
+			productName = TripticTests;
+			productReference = F61BC9D32047FBB80045C06A /* TripticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F61BC9DD2047FBB80045C06A /* TripticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61BC9ED2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticUITests" */;
+			buildPhases = (
+				F61BC9DA2047FBB80045C06A /* Sources */,
+				F61BC9DB2047FBB80045C06A /* Frameworks */,
+				F61BC9DC2047FBB80045C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61BC9E02047FBB80045C06A /* PBXTargetDependency */,
+			);
+			name = TripticUITests;
+			productName = TripticUITests;
+			productReference = F61BC9DE2047FBB80045C06A /* TripticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F61BC9B72047FBB80045C06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Valentin COUSIEN";
+				TargetAttributes = {
+					F61BC9BE2047FBB80045C06A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F61BC9D22047FBB80045C06A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F61BC9BE2047FBB80045C06A;
+					};
+					F61BC9DD2047FBB80045C06A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F61BC9BE2047FBB80045C06A;
+					};
+				};
+			};
+			buildConfigurationList = F61BC9BA2047FBB80045C06A /* Build configuration list for PBXProject "Triptic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F61BC9B62047FBB80045C06A;
+			productRefGroup = F61BC9C02047FBB80045C06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61BC9BE2047FBB80045C06A /* Triptic */,
+				F61BC9D22047FBB80045C06A /* TripticTests */,
+				F61BC9DD2047FBB80045C06A /* TripticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61BC9BD2047FBB80045C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6447F452049C9A1006A2549 /* Neoteric.ttf in Resources */,
+				F61BC9CD2047FBB80045C06A /* LaunchScreen.storyboard in Resources */,
+				F61BC9CA2047FBB80045C06A /* Assets.xcassets in Resources */,
+				F61BC9C82047FBB80045C06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9D12047FBB80045C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9DC2047FBB80045C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61BC9BB2047FBB80045C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */,
+				F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */,
+				F61BC9F32048340D0045C06A /* CustomImagePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9CF2047FBB80045C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61BC9D82047FBB80045C06A /* TripticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61BC9DA2047FBB80045C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61BC9E32047FBB80045C06A /* TripticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F61BC9D52047FBB80045C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61BC9BE2047FBB80045C06A /* Triptic */;
+			targetProxy = F61BC9D42047FBB80045C06A /* PBXContainerItemProxy */;
+		};
+		F61BC9E02047FBB80045C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61BC9BE2047FBB80045C06A /* Triptic */;
+			targetProxy = F61BC9DF2047FBB80045C06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F61BC9C62047FBB80045C06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61BC9C72047FBB80045C06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F61BC9CB2047FBB80045C06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61BC9CC2047FBB80045C06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F61BC9E52047FBB80045C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F61BC9E62047FBB80045C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F61BC9E82047FBB80045C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Triptic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.Triptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F61BC9E92047FBB80045C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Triptic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.Triptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F61BC9EB2047FBB80045C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.TripticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triptic.app/Triptic";
+			};
+			name = Debug;
+		};
+		F61BC9EC2047FBB80045C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.TripticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triptic.app/Triptic";
+			};
+			name = Release;
+		};
+		F61BC9EE2047FBB80045C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.TripticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triptic;
+			};
+			name = Debug;
+		};
+		F61BC9EF2047FBB80045C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veesla.TripticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triptic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61BC9BA2047FBB80045C06A /* Build configuration list for PBXProject "Triptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61BC9E52047FBB80045C06A /* Debug */,
+				F61BC9E62047FBB80045C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61BC9E72047FBB80045C06A /* Build configuration list for PBXNativeTarget "Triptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61BC9E82047FBB80045C06A /* Debug */,
+				F61BC9E92047FBB80045C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61BC9EA2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61BC9EB2047FBB80045C06A /* Debug */,
+				F61BC9EC2047FBB80045C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61BC9ED2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61BC9EE2047FBB80045C06A /* Debug */,
+				F61BC9EF2047FBB80045C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F61BC9B72047FBB80045C06A /* Project object */;
+}
