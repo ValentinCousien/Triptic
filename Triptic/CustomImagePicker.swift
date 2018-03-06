@@ -100,7 +100,7 @@ extension CustomImagePicker : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let photoAsset = fetchResult.object(at: indexPath.item)
         print(photoAsset.description)
-        imageManager.requestImage(for: photoAsset, targetSize: PHImageManagerMaximumSize, contentMode: .default, options: nil) { (image, info) -> Void in
+        imageManager.requestImage(for: photoAsset, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFill, options: nil) { (image, info) -> Void in
             self.parentController?.detailImageView.image = image
         }
     }

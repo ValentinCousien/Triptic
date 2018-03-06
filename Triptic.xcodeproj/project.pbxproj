@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C394B3C24E80FF36AED094 /* Pods_Triptic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0859E1580A1D0C09206605D0 /* Pods_Triptic.framework */; };
+		AE5FBC7195C6AB13578653D6 /* Pods_TripticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E345116BB8C7D82D4BA23E89 /* Pods_TripticTests.framework */; };
+		E0326DA6A68E4B118C3477E8 /* Pods_TripticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECA602538F917B9CB9D346B /* Pods_TripticUITests.framework */; };
 		F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C22047FBB80045C06A /* AppDelegate.swift */; };
 		F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C42047FBB80045C06A /* ViewController.swift */; };
 		F61BC9C82047FBB80045C06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61BC9C62047FBB80045C06A /* Main.storyboard */; };
@@ -15,7 +18,9 @@
 		F61BC9D82047FBB80045C06A /* TripticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9D72047FBB80045C06A /* TripticTests.swift */; };
 		F61BC9E32047FBB80045C06A /* TripticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9E22047FBB80045C06A /* TripticUITests.swift */; };
 		F61BC9F32048340D0045C06A /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9F22048340D0045C06A /* CustomImagePicker.swift */; };
+		F634929D204DA91E0038E1B5 /* PinchToZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634929C204DA91E0038E1B5 /* PinchToZoomImageView.swift */; };
 		F6447F452049C9A1006A2549 /* Neoteric.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F61BCA222049BC220045C06A /* Neoteric.ttf */; };
+		F65EC776204D8CBE00CC94A3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65EC775204D8CBE00CC94A3 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0859E1580A1D0C09206605D0 /* Pods_Triptic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triptic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA602538F917B9CB9D346B /* Pods_TripticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E77CFD3C9882838CABCB11 /* Pods-Triptic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triptic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Triptic/Pods-Triptic.debug.xcconfig"; sourceTree = "<group>"; };
+		729F2B43BCF09732603D6CDC /* Pods-TripticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripticUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripticUITests/Pods-TripticUITests.release.xcconfig"; sourceTree = "<group>"; };
+		976D7D8C06A1635858DC2D64 /* Pods-TripticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripticUITests/Pods-TripticUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C679F835D4476AD61E90A04 /* Pods-TripticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripticTests/Pods-TripticTests.release.xcconfig"; sourceTree = "<group>"; };
+		A49DA71E09542756FCDA4370 /* Pods-Triptic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triptic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Triptic/Pods-Triptic.release.xcconfig"; sourceTree = "<group>"; };
+		ADAAB1A9E34E111E55B3679C /* Pods-TripticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripticTests/Pods-TripticTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E345116BB8C7D82D4BA23E89 /* Pods_TripticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61BC9BF2047FBB80045C06A /* Triptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61BC9C22047FBB80045C06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61BC9C42047FBB80045C06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +65,8 @@
 		F61BC9E42047FBB80045C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F61BC9F22048340D0045C06A /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
 		F61BCA222049BC220045C06A /* Neoteric.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neoteric.ttf; sourceTree = "<group>"; };
+		F634929C204DA91E0038E1B5 /* PinchToZoomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchToZoomImageView.swift; sourceTree = "<group>"; };
+		F65EC775204D8CBE00CC94A3 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C394B3C24E80FF36AED094 /* Pods_Triptic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5FBC7195C6AB13578653D6 /* Pods_TripticTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0326DA6A68E4B118C3477E8 /* Pods_TripticUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E7DF94551B7BFFB15487350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E77CFD3C9882838CABCB11 /* Pods-Triptic.debug.xcconfig */,
+				A49DA71E09542756FCDA4370 /* Pods-Triptic.release.xcconfig */,
+				ADAAB1A9E34E111E55B3679C /* Pods-TripticTests.debug.xcconfig */,
+				9C679F835D4476AD61E90A04 /* Pods-TripticTests.release.xcconfig */,
+				976D7D8C06A1635858DC2D64 /* Pods-TripticUITests.debug.xcconfig */,
+				729F2B43BCF09732603D6CDC /* Pods-TripticUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AC9111F97497CDB1F412334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0859E1580A1D0C09206605D0 /* Pods_Triptic.framework */,
+				E345116BB8C7D82D4BA23E89 /* Pods_TripticTests.framework */,
+				4ECA602538F917B9CB9D346B /* Pods_TripticUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F61BC9B62047FBB80045C06A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				F61BC9D62047FBB80045C06A /* TripticTests */,
 				F61BC9E12047FBB80045C06A /* TripticUITests */,
 				F61BC9C02047FBB80045C06A /* Products */,
+				3E7DF94551B7BFFB15487350 /* Pods */,
+				4AC9111F97497CDB1F412334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +147,14 @@
 			children = (
 				F6447F442049C93F006A2549 /* fonts */,
 				F61BC9C22047FBB80045C06A /* AppDelegate.swift */,
+				F634929C204DA91E0038E1B5 /* PinchToZoomImageView.swift */,
 				F61BC9C42047FBB80045C06A /* ViewController.swift */,
-				F61BC9C62047FBB80045C06A /* Main.storyboard */,
 				F61BC9C92047FBB80045C06A /* Assets.xcassets */,
+				F61BC9C62047FBB80045C06A /* Main.storyboard */,
 				F61BC9CB2047FBB80045C06A /* LaunchScreen.storyboard */,
 				F61BC9CE2047FBB80045C06A /* Info.plist */,
 				F61BC9F22048340D0045C06A /* CustomImagePicker.swift */,
+				F65EC775204D8CBE00CC94A3 /* UIViewExtension.swift */,
 			);
 			path = Triptic;
 			sourceTree = "<group>";
@@ -146,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F61BC9E72047FBB80045C06A /* Build configuration list for PBXNativeTarget "Triptic" */;
 			buildPhases = (
+				CF2BA5B5C874F1ABD353A8A5 /* [CP] Check Pods Manifest.lock */,
 				F61BC9BB2047FBB80045C06A /* Sources */,
 				F61BC9BC2047FBB80045C06A /* Frameworks */,
 				F61BC9BD2047FBB80045C06A /* Resources */,
+				0114CA1A8D86A35D9A9F9A6F /* [CP] Embed Pods Frameworks */,
+				F78E06F66C184402CEE36DB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F61BC9EA2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticTests" */;
 			buildPhases = (
+				04C4EA393BA3D0767A76AD41 /* [CP] Check Pods Manifest.lock */,
 				F61BC9CF2047FBB80045C06A /* Sources */,
 				F61BC9D02047FBB80045C06A /* Frameworks */,
 				F61BC9D12047FBB80045C06A /* Resources */,
+				440CA5666A13B128CDC5DF48 /* [CP] Embed Pods Frameworks */,
+				8CA28E9547D840190B9A7463 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F61BC9ED2047FBB80045C06A /* Build configuration list for PBXNativeTarget "TripticUITests" */;
 			buildPhases = (
+				3BD9F388113613D475EAA2DA /* [CP] Check Pods Manifest.lock */,
 				F61BC9DA2047FBB80045C06A /* Sources */,
 				F61BC9DB2047FBB80045C06A /* Frameworks */,
 				F61BC9DC2047FBB80045C06A /* Resources */,
+				A4BF7C0C4F81A4B00FC80F0F /* [CP] Embed Pods Frameworks */,
+				D93C2B97B60FDFC31D2D9E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,13 +324,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0114CA1A8D86A35D9A9F9A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Triptic/Pods-Triptic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PinchToZoomImageView/PinchToZoomImageView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinchToZoomImageView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Triptic/Pods-Triptic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04C4EA393BA3D0767A76AD41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripticTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD9F388113613D475EAA2DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripticUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440CA5666A13B128CDC5DF48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripticTests/Pods-TripticTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA28E9547D840190B9A7463 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripticTests/Pods-TripticTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BF7C0C4F81A4B00FC80F0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripticUITests/Pods-TripticUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2BA5B5C874F1ABD353A8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Triptic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93C2B97B60FDFC31D2D9E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripticUITests/Pods-TripticUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78E06F66C184402CEE36DB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Triptic/Pods-Triptic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F61BC9BB2047FBB80045C06A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F634929D204DA91E0038E1B5 /* PinchToZoomImageView.swift in Sources */,
 				F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */,
 				F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */,
+				F65EC776204D8CBE00CC94A3 /* UIViewExtension.swift in Sources */,
 				F61BC9F32048340D0045C06A /* CustomImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,9 +647,11 @@
 		};
 		F61BC9E82047FBB80045C06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E77CFD3C9882838CABCB11 /* Pods-Triptic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTNUGMRHR6;
 				INFOPLIST_FILE = Triptic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -455,9 +664,11 @@
 		};
 		F61BC9E92047FBB80045C06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49DA71E09542756FCDA4370 /* Pods-Triptic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTNUGMRHR6;
 				INFOPLIST_FILE = Triptic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -470,6 +681,7 @@
 		};
 		F61BC9EB2047FBB80045C06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADAAB1A9E34E111E55B3679C /* Pods-TripticTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +698,7 @@
 		};
 		F61BC9EC2047FBB80045C06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C679F835D4476AD61E90A04 /* Pods-TripticTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +715,7 @@
 		};
 		F61BC9EE2047FBB80045C06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976D7D8C06A1635858DC2D64 /* Pods-TripticUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +731,7 @@
 		};
 		F61BC9EF2047FBB80045C06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729F2B43BCF09732603D6CDC /* Pods-TripticUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
