@@ -102,6 +102,7 @@ extension CustomImagePicker : UICollectionViewDelegate {
         print(photoAsset.description)
         imageManager.requestImage(for: photoAsset, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFill, options: nil) { (image, info) -> Void in
             self.parentController?.detailImageView.image = image
+            self.parentController?.detailImageView.reset()
         }
     }
 }

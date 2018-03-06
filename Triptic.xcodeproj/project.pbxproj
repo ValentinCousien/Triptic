@@ -10,6 +10,7 @@
 		26C394B3C24E80FF36AED094 /* Pods_Triptic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0859E1580A1D0C09206605D0 /* Pods_Triptic.framework */; };
 		AE5FBC7195C6AB13578653D6 /* Pods_TripticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E345116BB8C7D82D4BA23E89 /* Pods_TripticTests.framework */; };
 		E0326DA6A68E4B118C3477E8 /* Pods_TripticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECA602538F917B9CB9D346B /* Pods_TripticUITests.framework */; };
+		F61B8DE7204ED55000F9EE5B /* TripticCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B8DE6204ED54F00F9EE5B /* TripticCropper.swift */; };
 		F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C22047FBB80045C06A /* AppDelegate.swift */; };
 		F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BC9C42047FBB80045C06A /* ViewController.swift */; };
 		F61BC9C82047FBB80045C06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61BC9C62047FBB80045C06A /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		A49DA71E09542756FCDA4370 /* Pods-Triptic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triptic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Triptic/Pods-Triptic.release.xcconfig"; sourceTree = "<group>"; };
 		ADAAB1A9E34E111E55B3679C /* Pods-TripticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripticTests/Pods-TripticTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E345116BB8C7D82D4BA23E89 /* Pods_TripticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61B8DE6204ED54F00F9EE5B /* TripticCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripticCropper.swift; sourceTree = "<group>"; };
 		F61BC9BF2047FBB80045C06A /* Triptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61BC9C22047FBB80045C06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61BC9C42047FBB80045C06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				F61BC9CE2047FBB80045C06A /* Info.plist */,
 				F61BC9F22048340D0045C06A /* CustomImagePicker.swift */,
 				F65EC775204D8CBE00CC94A3 /* UIViewExtension.swift */,
+				F61B8DE6204ED54F00F9EE5B /* TripticCropper.swift */,
 			);
 			path = Triptic;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				F634929D204DA91E0038E1B5 /* PinchToZoomImageView.swift in Sources */,
 				F61BC9C52047FBB80045C06A /* ViewController.swift in Sources */,
 				F61BC9C32047FBB80045C06A /* AppDelegate.swift in Sources */,
+				F61B8DE7204ED55000F9EE5B /* TripticCropper.swift in Sources */,
 				F65EC776204D8CBE00CC94A3 /* UIViewExtension.swift in Sources */,
 				F61BC9F32048340D0045C06A /* CustomImagePicker.swift in Sources */,
 			);
@@ -655,7 +659,7 @@
 				INFOPLIST_FILE = Triptic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Veesla.Triptic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veesla.triptic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,7 +676,7 @@
 				INFOPLIST_FILE = Triptic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Veesla.Triptic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veesla.triptic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

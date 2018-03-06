@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var bottomView: UIView!
     
     @IBOutlet weak var galleryCollectionView: CustomImagePicker!
-    @IBOutlet weak var detailImageView: UIImageView!
+    @IBOutlet weak var detailImageView: PinchToZoomImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
