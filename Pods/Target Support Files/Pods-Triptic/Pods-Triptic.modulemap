@@ -1,0 +1,6 @@
+framework module Pods_Triptic {
+  umbrella header "Pods-Triptic-umbrella.h"
+
+  export *
+  module * { export * }
+}
